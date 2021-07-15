@@ -71,9 +71,11 @@ function App() {
 
             const closeChild = (id) => {
                 for (let i = id; i < kids.length; i++) {
+                    if (kids[i].dataset.level == 1) break
                     if (kids[i].dataset.level > 1) {
                         kids[i].setAttribute('hidden', 'hidden')
                         kids[i].classList.remove('isOpen')
+                        
                     }
                 }
 
