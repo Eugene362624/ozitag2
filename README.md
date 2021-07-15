@@ -1,1 +1,1 @@
-for complete this task i spent 4 hours summary. i have not used ts before. i didn't use redux to complete it. i think this app is to small to use redux here. also i combained two components together for shorting code and logic i think. it's looks nicely for me. because in different way u need to use redux or custom hooks. 
+
